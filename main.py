@@ -57,7 +57,7 @@ async def get_questions(questions_numb: int = 1) -> Any:
 register_tortoise(
     app=APP,
     config=DB_CONFIG,
-    # generate_schemas=True,
+    generate_schemas=True,
 )
 
 
